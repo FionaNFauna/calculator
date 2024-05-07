@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="javascript.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div id="Calculator">
+        
+        <div id="Screen">No numbers have been typed</div>
+
+        <div id="Buttons">
+            <div class="row one">
+                <button onclick="typeNum(`7`)">7</button>
+                <button onclick="typeNum(`8`)">8</button>
+                <button onclick="typeNum(`9`)">9</button>
+                <button onclick="apply(`x`)">x</button>
+            </div>
+            <div class ="row two">
+                <button onclick="typeNum(`4`)">4</button>
+                <button onclick="typeNum(`5`)">5</button>
+                <button onclick="typeNum(`6`)">6</button>
+                <button onclick="apply(`-`)">-</button>
+            </div>
+            <div class = "row three">
+                <button onclick="typeNum(`1`)">1</button>
+                <button onclick="typeNum(`2`)">2</button>
+                <button onclick="typeNum(`3`)">3</button>
+                <button onclick="apply(`+`)">+</button>
+            </div>
+            <div class = "row four">
+                <button onclick="typeNum(`0`)">0</button>
+                <button onclick="dot()">.</button>
+                <button onclick="apply(`/`)">/</button>
+                <button onclick="enter()">=</button>
+            </div>
+            <button id="clear" onclick="setToDefault()">Clear</button>
+        </div>
+    </div>
+    
+    
+    
+</body>
+</html>

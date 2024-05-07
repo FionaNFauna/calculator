@@ -1,0 +1,44 @@
+*{
+    background-color: pink;
+    font-family: fantasy;
+    text-align: center;
+}
+
+#Calculator{
+    width: 15%;
+    margin: auto;
+    /* background-color: pink; */
+    border-radius: 25px;
+    /* display: flex; */
+}
+
+#Calculator #Screen{
+    background-color: black;
+    color: green;
+    width: 80%;
+    margin: auto;
+    padding:20px
+}
+
+
+#Buttons .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Buttons .row button{
+    flex:1;
+    background-color: white;
+    height: 40px;
+    width: 50px;
+    margin:5px;
+    border-radius: 20px;
+}
+
+#Buttons #clear{
+    background-color: yellow;
+    height: 35px;
+    width: 45px;
+    margin: 5px;
+}
